@@ -3,13 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CAF Adriatico Lecce: assistenza fiscale, 730, ISEE, pratiche INPS e previdenziali per famiglie, lavoratori e pensionati. Via Palmieri 22, Lecce.">
-  <meta property="og:title" content="CAF Adriatico Lecce">
-  <meta property="og:description" content="Assistenza fiscale e pratiche amministrative a Lecce. Dichiarazioni dei redditi, ISEE, INPS, successioni. Prenota un appuntamento.">
-  <title>CAF Adriatico Lecce</title>
+  <title>CAF Adriatico Lecce | 730, ISEE, INPS e Assistenza Fiscale</title>
+  <meta name="description" content="CAF Adriatico Lecce: 730, ISEE, pratiche INPS, successioni, contratti di locazione e assistenza fiscale per famiglie, lavoratori e pensionati a Lecce.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="CAF Adriatico">
+  <link rel="canonical" href="https://www.cafadriatico.it/">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CAF Adriatico Lecce | Assistenza Fiscale e Previdenziale">
+  <meta property="og:description" content="Assistenza fiscale a Lecce per 730, ISEE, pratiche INPS, successioni e locazioni. Prenota un appuntamento con CAF Adriatico.">
+  <meta property="og:url" content="https://www.cafadriatico.it/">
+  <meta property="og:site_name" content="CAF Adriatico Lecce">
+  <meta property="og:image" content="https://www.cafadriatico.it/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="CAF Adriatico Lecce - assistenza fiscale e previdenziale">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CAF Adriatico Lecce | Assistenza Fiscale e Previdenziale">
+  <meta name="twitter:description" content="730, ISEE, pratiche INPS, successioni e locazioni a Lecce. Contatta CAF Adriatico.">
+  <meta name="twitter:image" content="https://www.cafadriatico.it/og-image.jpg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CAF Adriatico",
+      "image": "https://www.cafadriatico.it/og-image.jpg",
+      "url": "https://www.cafadriatico.it/",
+      "telephone": "+39 0832 45 12 78",
+      "email": "info@cafadriatico.it",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Palmieri 22",
+        "addressLocality": "Lecce",
+        "addressRegion": "LE",
+        "postalCode": "73100",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.3529,
+        "longitude": 18.1743
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Lecce"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "15:30",
+          "closes": "18:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "12:00"
+        }
+      ],
+      "sameAs": []
+    }
+  </script>
   <style>
     :root,[data-theme="light"]{
       --text-xs:clamp(.75rem,.7rem + .25vw,.875rem);
@@ -41,104 +108,30 @@
     h1,h2,h3{line-height:1.08;text-wrap:balance}
     p{max-width:68ch;color:var(--color-text-muted)}
     :focus-visible{outline:2px solid var(--color-primary);outline-offset:3px;border-radius:var(--radius-sm)}
-    .skip-link{position:absolute;left:-9999px;top:auto}
-    .skip-link:focus{left:1rem;top:1rem;background:var(--color-surface);padding:.75rem 1rem;z-index:1000;border-radius:var(--radius-md)}
-    .container{width:min(calc(100% - 2rem),var(--content-default));margin-inline:auto}
-    .section{padding-block:clamp(var(--space-12),9vw,var(--space-24))}
-    .section-head{display:grid;gap:var(--space-3);margin-bottom:var(--space-10)}
-    .eyebrow{font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.16em;color:var(--color-primary);font-weight:700}
-
-    .topbar{background:var(--color-surface);border-bottom:1px solid var(--color-divider)}
-    .topbar-inner{display:flex;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap;padding:.65rem 0;font-size:var(--text-xs);color:var(--color-text-muted)}
-    .topbar strong{color:var(--color-text)}
-
-    .site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--color-bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--color-divider)}
-    .header-inner{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);padding:var(--space-4) 0}
-    .brand{display:flex;align-items:center;gap:var(--space-3)}
-    .brand-mark{width:2.75rem;height:2.75rem;border-radius:var(--radius-full);background:var(--color-primary-highlight);display:grid;place-items:center;color:var(--color-primary)}
-    .brand-text strong{display:block;font-size:var(--text-sm)}
-    .brand-text span{display:block;font-size:var(--text-xs);color:var(--color-text-muted);letter-spacing:.08em;text-transform:uppercase}
-    .nav-list{display:flex;flex-wrap:wrap;gap:var(--space-4);font-size:var(--text-sm);color:var(--color-text-muted)}
-    .nav-list a:hover{color:var(--color-text)}
-    .header-actions{display:flex;align-items:center;gap:var(--space-3)}
-    .theme-toggle,.menu-cta{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border-radius:var(--radius-full);border:1px solid var(--color-border);background:var(--color-surface);cursor:pointer}
-    .menu-cta{padding:0 1rem;font-size:var(--text-sm);font-weight:600}
-    .theme-toggle:hover,.menu-cta:hover{background:var(--color-surface-2)}
-
-    .hero{padding-block:clamp(var(--space-12),10vw,var(--space-24))}
-    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--space-8);align-items:center}
-    .hero-copy{display:grid;gap:var(--space-5)}
-    .hero h1{font-family:var(--font-display);font-size:clamp(3rem,6vw,5.7rem);font-weight:600;letter-spacing:-.03em;max-width:12ch}
-    .hero p{font-size:var(--text-lg);max-width:56ch}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-3)}
-    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.9rem 1.25rem;border-radius:var(--radius-full);font-size:var(--text-sm);font-weight:700;border:1px solid transparent;transition:all var(--transition-interactive);cursor:pointer}
-    .btn-primary{background:var(--color-primary);color:var(--color-text-inverse)}
-    .btn-primary:hover{background:var(--color-primary-hover)}
-    .btn-secondary{background:var(--color-surface);border-color:var(--color-border)}
-    .btn-secondary:hover{background:var(--color-surface-2)}
-
-    .hero-card{background:linear-gradient(180deg,var(--color-surface),var(--color-surface-2));border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-lg);display:grid;gap:var(--space-6)}
-    .hero-card h2{font-size:var(--text-xl);font-family:var(--font-display);font-weight:600}
-    .hero-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-4)}
-    .stat{padding:var(--space-4);background:var(--color-bg);border-radius:var(--radius-lg);border:1px solid var(--color-divider)}
-    .stat strong{display:block;font-size:var(--text-lg);color:var(--color-text)}
-    .stat span{display:block;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted)}
-
-    .services-grid,.features-grid,.docs-grid,.trust-grid,.faq-grid{display:grid;gap:var(--space-5)}
-    .services-grid{grid-template-columns:repeat(3,1fr)}
-    .service-card,.feature-card,.doc-card,.trust-card,.faq-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}
-    .service-card h3,.feature-card h3,.doc-card h3,.trust-card h3,.faq-card h3{font-size:var(--text-lg);margin-bottom:var(--space-3);color:var(--color-text)}
-    .service-card p,.feature-card p,.doc-card p,.trust-card p,.faq-card p{font-size:var(--text-sm)}
-
-    .split-band{background:var(--color-surface-2);border-block:1px solid var(--color-divider)}
-    .split-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--space-8);align-items:start}
-    .split-panel{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-md)}
-    .check-list{display:grid;gap:var(--space-3);margin-top:var(--space-5)}
-    .check-list li{display:flex;gap:var(--space-3);align-items:flex-start;color:var(--color-text-muted)}
-    .check-list li::before{content:'';width:.75rem;height:.75rem;border-radius:999px;background:var(--color-primary);margin-top:.45rem;flex:0 0 auto}
-
-    .features-grid{grid-template-columns:repeat(3,1fr)}
-    .docs-grid{grid-template-columns:repeat(4,1fr)}
-    .doc-card span,.trust-pill{display:inline-block;margin-bottom:var(--space-3);padding:.35rem .7rem;border-radius:var(--radius-full);font-size:var(--text-xs);background:var(--color-primary-highlight);color:var(--color-primary);font-weight:700}
-    .trust-grid{grid-template-columns:repeat(3,1fr)}
-    .faq-grid{grid-template-columns:repeat(3,1fr)}
-
-    .contact-outer{display:grid;grid-template-columns:.75fr 1fr;gap:var(--space-5);align-items:stretch}
-    .contact-left{display:grid;gap:var(--space-5);align-content:start}
-    .contact-card,.form-card,.map-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}
-    .contact-card{display:grid;gap:var(--space-4)}
-    .contact-list{display:grid;gap:var(--space-3);font-size:var(--text-sm);color:var(--color-text-muted)}
-    .contact-list strong{color:var(--color-text);display:block}
-    .form-card{display:grid;gap:var(--space-4)}
-    .contact-form{display:grid;gap:var(--space-4)}
-    .form-row{display:grid;gap:.5rem}
-    .form-row label{font-size:var(--text-sm);font-weight:600;color:var(--color-text)}
-    .form-row input,.form-row textarea{width:100%;padding:.9rem 1rem;border:1px solid var(--color-border);border-radius:var(--radius-md);background:var(--color-bg);color:var(--color-text)}
-    .form-row textarea{min-height:130px;resize:vertical}
-    .form-note{font-size:var(--text-xs);color:var(--color-text-faint)}
-    .map-card{display:flex;flex-direction:column;gap:var(--space-4);height:100%;align-self:stretch}
-    .map-frame{width:100%;flex:1;min-height:300px;border:0;border-radius:var(--radius-lg)}
-
-    .site-footer{padding:var(--space-8) 0;border-top:1px solid var(--color-divider);background:var(--color-surface)}
-    .footer-inner{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:var(--space-6);color:var(--color-text-muted);font-size:var(--text-sm)}
-    .footer-inner strong{display:block;color:var(--color-text);margin-bottom:.35rem}
-    .footer-copy{margin-top:var(--space-6);padding-top:var(--space-6);border-top:1px solid var(--color-divider);text-align:center;font-size:var(--text-xs);color:var(--color-text-faint)}
-
-    @media(max-width:1024px){.hero-grid,.split-grid,.footer-inner{grid-template-columns:1fr}.services-grid,.features-grid,.trust-grid,.faq-grid{grid-template-columns:repeat(2,1fr)}.docs-grid{grid-template-columns:repeat(2,1fr)}.hero h1{max-width:14ch}.contact-outer{grid-template-columns:1fr}.map-card{height:auto}.map-frame{min-height:420px;flex:none}}
-    @media(max-width:720px){.topbar-inner,.header-inner{flex-direction:column}.nav-list{gap:var(--space-3)}.header-actions{width:100%;justify-content:space-between}.services-grid,.features-grid,.docs-grid,.hero-stats,.trust-grid,.faq-grid{grid-template-columns:1fr}.hero p{font-size:var(--text-base)}.section{padding-block:var(--space-12)}}
+    .skip-link{position:absolute;left:-9999px;top:auto}.skip-link:focus{left:1rem;top:1rem;background:var(--color-surface);padding:.75rem 1rem;z-index:1000;border-radius:var(--radius-md)}
+    .container{width:min(calc(100% - 2rem),var(--content-default));margin-inline:auto}.section{padding-block:clamp(var(--space-12),9vw,var(--space-24))}.section-head{display:grid;gap:var(--space-3);margin-bottom:var(--space-10)}.eyebrow{font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.16em;color:var(--color-primary);font-weight:700}
+    .topbar{background:var(--color-surface);border-bottom:1px solid var(--color-divider)}.topbar-inner{display:flex;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap;padding:.65rem 0;font-size:var(--text-xs);color:var(--color-text-muted)}.topbar strong{color:var(--color-text)}
+    .site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--color-bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--color-divider)}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);padding:var(--space-4) 0}.brand{display:flex;align-items:center;gap:var(--space-3)}.brand-mark{width:2.75rem;height:2.75rem;border-radius:var(--radius-full);background:var(--color-primary-highlight);display:grid;place-items:center;color:var(--color-primary)}.brand-text strong{display:block;font-size:var(--text-sm)}.brand-text span{display:block;font-size:var(--text-xs);color:var(--color-text-muted);letter-spacing:.08em;text-transform:uppercase}.nav-list{display:flex;flex-wrap:wrap;gap:var(--space-4);font-size:var(--text-sm);color:var(--color-text-muted)}.nav-list a:hover{color:var(--color-text)}.header-actions{display:flex;align-items:center;gap:var(--space-3)}.theme-toggle,.menu-cta{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border-radius:var(--radius-full);border:1px solid var(--color-border);background:var(--color-surface);cursor:pointer}.menu-cta{padding:0 1rem;font-size:var(--text-sm);font-weight:600}.theme-toggle:hover,.menu-cta:hover{background:var(--color-surface-2)}
+    .hero{padding-block:clamp(var(--space-12),10vw,var(--space-24))}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--space-8);align-items:center}.hero-copy{display:grid;gap:var(--space-5)}.hero h1{font-family:var(--font-display);font-size:clamp(3rem,6vw,5.7rem);font-weight:600;letter-spacing:-.03em;max-width:12ch}.hero p{font-size:var(--text-lg);max-width:56ch}.hero-actions{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-3)}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.9rem 1.25rem;border-radius:var(--radius-full);font-size:var(--text-sm);font-weight:700;border:1px solid transparent;transition:all var(--transition-interactive);cursor:pointer}.btn-primary{background:var(--color-primary);color:var(--color-text-inverse)}.btn-primary:hover{background:var(--color-primary-hover)}.btn-secondary{background:var(--color-surface);border-color:var(--color-border)}.btn-secondary:hover{background:var(--color-surface-2)}
+    .hero-card{background:linear-gradient(180deg,var(--color-surface),var(--color-surface-2));border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-lg);display:grid;gap:var(--space-6)}.hero-card h2{font-size:var(--text-xl);font-family:var(--font-display);font-weight:600}.hero-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-4)}.stat{padding:var(--space-4);background:var(--color-bg);border-radius:var(--radius-lg);border:1px solid var(--color-divider)}.stat strong{display:block;font-size:var(--text-lg);color:var(--color-text)}.stat span{display:block;font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted)}
+    .services-grid,.docs-grid,.trust-grid,.faq-grid{display:grid;gap:var(--space-5)}.services-grid{grid-template-columns:repeat(3,1fr)}.service-card,.doc-card,.trust-card,.faq-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}.service-card h3,.doc-card h3,.trust-card h3,.faq-card h3{font-size:var(--text-lg);margin-bottom:var(--space-3);color:var(--color-text)}.service-card p,.doc-card p,.trust-card p,.faq-card p{font-size:var(--text-sm)}
+    .split-band{background:var(--color-surface-2);border-block:1px solid var(--color-divider)}.split-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--space-8);align-items:start}.split-panel{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-md)}.check-list{display:grid;gap:var(--space-3);margin-top:var(--space-5)}.check-list li{display:flex;gap:var(--space-3);align-items:flex-start;color:var(--color-text-muted)}.check-list li::before{content:'';width:.75rem;height:.75rem;border-radius:999px;background:var(--color-primary);margin-top:.45rem;flex:0 0 auto}
+    .docs-grid{grid-template-columns:repeat(4,1fr)}.doc-card span,.trust-pill{display:inline-block;margin-bottom:var(--space-3);padding:.35rem .7rem;border-radius:var(--radius-full);font-size:var(--text-xs);background:var(--color-primary-highlight);color:var(--color-primary);font-weight:700}.trust-grid{grid-template-columns:repeat(3,1fr)}.faq-grid{grid-template-columns:repeat(3,1fr)}
+    .contact-outer{display:grid;grid-template-columns:.75fr 1fr;gap:var(--space-5);align-items:stretch}.contact-left{display:grid;gap:var(--space-5);align-content:start}.contact-card,.form-card,.map-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}.contact-card{display:grid;gap:var(--space-4)}.contact-list{display:grid;gap:var(--space-3);font-size:var(--text-sm);color:var(--color-text-muted)}.contact-list strong{color:var(--color-text);display:block}.form-card{display:grid;gap:var(--space-4)}.contact-form{display:grid;gap:var(--space-4)}.form-row{display:grid;gap:.5rem}.form-row label{font-size:var(--text-sm);font-weight:600;color:var(--color-text)}.form-row input,.form-row textarea{width:100%;padding:.9rem 1rem;border:1px solid var(--color-border);border-radius:var(--radius-md);background:var(--color-bg);color:var(--color-text)}.form-row textarea{min-height:130px;resize:vertical}.form-note{font-size:var(--text-xs);color:var(--color-text-faint)}.map-card{display:flex;flex-direction:column;gap:var(--space-4);height:100%;align-self:stretch}.map-frame{width:100%;flex:1;min-height:300px;border:0;border-radius:var(--radius-lg)}
+    .site-footer{padding:var(--space-8) 0;border-top:1px solid var(--color-divider);background:var(--color-surface)}.footer-inner{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:var(--space-6);color:var(--color-text-muted);font-size:var(--text-sm)}.footer-inner strong{display:block;color:var(--color-text);margin-bottom:.35rem}.footer-copy{margin-top:var(--space-6);padding-top:var(--space-6);border-top:1px solid var(--color-divider);text-align:center;font-size:var(--text-xs);color:var(--color-text-faint)}
+    @media(max-width:1024px){.hero-grid,.split-grid,.footer-inner{grid-template-columns:1fr}.services-grid,.trust-grid,.faq-grid{grid-template-columns:repeat(2,1fr)}.docs-grid{grid-template-columns:repeat(2,1fr)}.hero h1{max-width:14ch}.contact-outer{grid-template-columns:1fr}.map-card{height:auto}.map-frame{min-height:420px;flex:none}}
+    @media(max-width:720px){.topbar-inner,.header-inner{flex-direction:column}.nav-list{gap:var(--space-3)}.header-actions{width:100%;justify-content:space-between}.services-grid,.docs-grid,.hero-stats,.trust-grid,.faq-grid{grid-template-columns:1fr}.hero p{font-size:var(--text-base)}.section{padding-block:var(--space-12)}}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto;transition-duration:.01ms !important}}
   </style>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Salta al contenuto</a>
-
   <div class="topbar">
     <div class="container topbar-inner">
       <div><strong>Orari:</strong> Lun–Ven 9:00–13:00 / 15:30–18:30 &nbsp;|&nbsp; Sab 9:00–12:00</div>
       <div><strong>Tel:</strong> 0832 45 12 78 &nbsp;&middot;&nbsp; <strong>Email:</strong> info@cafadriatico.it</div>
     </div>
   </div>
-
   <header class="site-header">
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="CAF Adriatico – torna all'inizio">
@@ -158,13 +151,10 @@
       </nav>
       <div class="header-actions">
         <a class="menu-cta" href="#contatti">Prenota</a>
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Attiva modalità scura">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </button>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Attiva modalità scura"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
       </div>
     </div>
   </header>
-
   <main id="contenuto">
     <section class="hero" id="top">
       <div class="container hero-grid">
@@ -192,7 +182,6 @@
         </aside>
       </div>
     </section>
-
     <section class="section" id="servizi">
       <div class="container">
         <div class="section-head">
@@ -210,7 +199,6 @@
         </div>
       </div>
     </section>
-
     <section class="section split-band" id="come-funziona">
       <div class="container split-grid">
         <div>
@@ -238,7 +226,6 @@
         </div>
       </div>
     </section>
-
     <section class="section" id="fiducia">
       <div class="container">
         <div class="section-head">
@@ -253,7 +240,6 @@
         </div>
       </div>
     </section>
-
     <section class="section split-band" id="documenti">
       <div class="container">
         <div class="section-head">
@@ -269,7 +255,6 @@
         </div>
       </div>
     </section>
-
     <section class="section" id="contatti">
       <div class="container">
         <div class="section-head">
@@ -296,18 +281,9 @@
             <div class="form-card">
               <h3 style="font-size:var(--text-lg);">Scrivi un messaggio</h3>
               <form class="contact-form" action="#" method="post">
-                <div class="form-row">
-                  <label for="nome">Nome e cognome</label>
-                  <input id="nome" name="nome" type="text" placeholder="Mario Rossi" required>
-                </div>
-                <div class="form-row">
-                  <label for="email">Email</label>
-                  <input id="email" name="email" type="email" placeholder="mario.rossi@email.it" required>
-                </div>
-                <div class="form-row">
-                  <label for="messaggio">Messaggio</label>
-                  <textarea id="messaggio" name="messaggio" placeholder="Indica il servizio di cui hai bisogno o la pratica che vuoi avviare..." required></textarea>
-                </div>
+                <div class="form-row"><label for="nome">Nome e cognome</label><input id="nome" name="nome" type="text" placeholder="Mario Rossi" required></div>
+                <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="mario.rossi@email.it" required></div>
+                <div class="form-row"><label for="messaggio">Messaggio</label><textarea id="messaggio" name="messaggio" placeholder="Indica il servizio di cui hai bisogno o la pratica che vuoi avviare..." required></textarea></div>
                 <button class="btn btn-primary" type="submit">Invia richiesta</button>
                 <p class="form-note">I dati inviati vengono utilizzati esclusivamente per rispondere alla tua richiesta. Per collegare il modulo a un servizio di invio email, integra Formspree o un backend dedicato.</p>
               </form>
@@ -321,7 +297,6 @@
         </div>
       </div>
     </section>
-
     <section class="section split-band" id="faq">
       <div class="container">
         <div class="section-head">
@@ -337,7 +312,6 @@
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="container">
       <div class="footer-inner">
@@ -348,7 +322,6 @@
       <p class="footer-copy">© 2026 CAF Adriatico – Via Palmieri 22, Lecce – P.IVA 03456780754</p>
     </div>
   </footer>
-
   <script>
     (function(){
       const root=document.documentElement;
@@ -356,17 +329,11 @@
       let theme=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
       root.setAttribute('data-theme',theme);
       function renderIcon(){
-        toggle.innerHTML=theme==='dark'
-          ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
-          :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        toggle.innerHTML=theme==='dark'?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
         toggle.setAttribute('aria-label',theme==='dark'?'Attiva modalità chiara':'Attiva modalità scura');
       }
       renderIcon();
-      toggle.addEventListener('click',function(){
-        theme=theme==='dark'?'light':'dark';
-        root.setAttribute('data-theme',theme);
-        renderIcon();
-      });
+      toggle.addEventListener('click',function(){theme=theme==='dark'?'light':'dark';root.setAttribute('data-theme',theme);renderIcon();});
     })();
   </script>
 </body>

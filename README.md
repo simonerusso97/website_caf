@@ -1,47 +1,52 @@
-# CAF Centro Servizi
+# CAF Adriatico Lecce
 
-Sito statico realizzato in **HTML + CSS** per un CAF (Centro di Assistenza Fiscale), con struttura professionale, sezioni informative e stile adatto a un'attività che deve trasmettere fiducia, ordine e chiarezza.
+Sito vetrina statico in HTML/CSS per un Centro di Assistenza Fiscale con focus su SEO locale, accessibilità e conversione contatti.
 
-## Contenuto del progetto
+## Contenuti
+
+- Home page ottimizzata per keyword locali come `CAF Lecce`, `730 Lecce`, `ISEE Lecce`, `pratiche INPS Lecce`
+- Sezioni servizi, fiducia, documenti utili, contatti e FAQ
+- Modulo contatti statico pronto per integrazione con Formspree, Netlify Forms o backend dedicato
+- Mappa incorporata della sede
+
+## SEO implementata
+
+- Title tag ottimizzato e meta description locale
+- Canonical URL
+- Meta robots
+- Open Graph completo
+- Twitter Card
+- Dati strutturati `LocalBusiness` in JSON-LD
+- `robots.txt`
+- `sitemap.xml`
+- Heading structure semantica (`h1`, `h2`, `h3`)
+- `lang="it"` e buona accessibilità di base
+
+## File principali
 
 - `index.html` — pagina principale del sito
-- `assets/` — cartella pronta per eventuali immagini o risorse aggiuntive
+- `robots.txt` — direttive per i crawler
+- `sitemap.xml` — sitemap XML della home page
+- `favicon.svg` — favicon del sito (da aggiungere se si vuole un asset definitivo)
 
-## Caratteristiche
+## Note
 
-- Solo HTML, CSS e un piccolo script per il cambio tema chiaro/scuro
-- Layout responsive per desktop, tablet e smartphone
-- Navigazione interna tramite ancore
-- Sezioni già pronte per hero, servizi, funzionamento, documenti e contatti
-- Design sobrio e istituzionale
-- Facile da personalizzare con nome reale del CAF, recapiti, indirizzo e orari
+I dati del CAF presenti nel progetto sono dimostrativi ma plausibili. Prima della pubblicazione è consigliato sostituire:
 
-## Come aprire il sito
+- dominio canonico
+- numero di telefono
+- email e PEC
+- P.IVA
+- indirizzo esatto
+- coordinate geografiche
+- eventuali profili social nel campo `sameAs` del JSON-LD
+- immagine social `og-image.jpg`
 
-Apri il file `index.html` direttamente nel browser.
+## Pubblicazione consigliata
 
-## Personalizzazioni consigliate
+Per mantenere coerenza SEO, pubblicare il sito sul dominio reale e verificare poi:
 
-Sostituisci questi contenuti con quelli reali:
-
-- Nome del CAF
-- Numero di telefono
-- Email
-- Indirizzo
-- Orari di apertura
-- Elenco preciso dei servizi
-- Eventuale link a WhatsApp, Google Maps o modulo di prenotazione
-
-## Pubblicazione su GitHub Pages
-
-1. Carica i file nel repository.
-2. Il sito è già pronto con `index.html` come pagina principale.
-3. Attiva GitHub Pages dalle impostazioni del repository.
-
-## Possibili miglioramenti futuri
-
-- Aggiunta di una pagina contatti dedicata
-- Integrazione con mappa Google Maps
-- Modulo contatti esterno
-- Sezione FAQ
-- Area download moduli e documenti
+- Google Search Console
+- Bing Webmaster Tools
+- Google Business Profile
+- PageSpeed Insights
