@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a6a67"/>
+      <stop offset="100%" stop-color="#08514f"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Decorative circle top right -->
+  <circle cx="1050" cy="-60" r="320" fill="#ffffff" fill-opacity="0.04"/>
+  <circle cx="1100" cy="80" r="180" fill="#ffffff" fill-opacity="0.04"/>
+  <!-- Bottom left accent -->
+  <circle cx="-40" cy="630" r="260" fill="#ffffff" fill-opacity="0.04"/>
+  <!-- Icon mark -->
+  <g transform="translate(96, 180)">
+    <rect width="100" height="100" rx="22" fill="#d5e7e4" fill-opacity="0.15"/>
+    <path d="M20 88V46L50 24L80 46V88" stroke="#d5e7e4" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M36 60H64M36 74H64" stroke="#d5e7e4" stroke-width="5.5" stroke-linecap="round"/>
+  </g>
+  <!-- Main title -->
+  <text x="96" y="360" font-family="Georgia, serif" font-size="86" font-weight="700" fill="#ffffff" letter-spacing="-2">CAF Adriatico</text>
+  <!-- Subtitle -->
+  <text x="96" y="434" font-family="Arial, sans-serif" font-size="36" fill="#d5e7e4" letter-spacing="0.5">Centro di Assistenza Fiscale &amp; Previdenziale</text>
+  <!-- Location pill -->
+  <rect x="96" y="474" width="230" height="52" rx="26" fill="#ffffff" fill-opacity="0.12"/>
+  <text x="211" y="506" font-family="Arial, sans-serif" font-size="24" fill="#d5e7e4" text-anchor="middle" letter-spacing="1">Via Palmieri 22, Lecce</text>
+  <!-- Services tags -->
+  <rect x="96" y="556" width="106" height="40" rx="8" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="149" y="581" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">730</text>
+  <rect x="218" y="556" width="106" height="40" rx="8" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="271" y="581" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">ISEE</text>
+  <rect x="340" y="556" width="106" height="40" rx="8" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="393" y="581" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">INPS</text>
+  <rect x="462" y="556" width="200" height="40" rx="8" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="562" y="581" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">Successioni</text>
+  <rect x="678" y="556" width="220" height="40" rx="8" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="788" y="581" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">Locazioni</text>
+  <!-- Right side decorative divider -->
+  <line x1="760" y1="160" x2="760" y2="490" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <!-- Right side website -->
+  <text x="900" y="340" font-family="Arial, sans-serif" font-size="24" fill="#d5e7e4" text-anchor="middle" fill-opacity="0.7">www.cafadriatico.it</text>
+  <text x="900" y="390" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle">0832 45 12 78</text>
+  <text x="900" y="435" font-family="Arial, sans-serif" font-size="22" fill="#d5e7e4" text-anchor="middle" fill-opacity="0.8">info@cafadriatico.it</text>
+  <!-- Since 2003 badge -->
+  <circle cx="900" cy="250" r="68" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="900" y="238" font-family="Arial, sans-serif" font-size="20" fill="#d5e7e4" text-anchor="middle" fill-opacity="0.9">dal</text>
+  <text x="900" y="274" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#ffffff" text-anchor="middle">2003</text>
+</svg>
